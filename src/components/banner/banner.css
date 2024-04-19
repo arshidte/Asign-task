@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
+
+.banner {
+  background-color: #f1f1f1;
+}
+.tag {
+  padding: 3px 12px;
+  background-color: white;
+  font-size: 12px;
+  width: fit-content;
+}
+.banner-profile h4 {
+  font-family: "EB Garamond", serif;
+  font-size: 48px;
+  color: #4f4f4f;
+}
+.banner-profile p {
+    font-size: 16px;
+    color: #696969;
+}

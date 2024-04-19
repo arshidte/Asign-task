@@ -1,0 +1,39 @@
+.handpicked-card-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: scroll;
+  gap: 10px;
+}
+
+.handpicked-card {
+  width: 370px;
+  height: 370px;
+  position: relative;
+}
+.handpicked-card h4 {
+  font-size: 25px;
+  color: #1d1d1d;
+}
+.handpicked-card button {
+  border: 1px solid #cfcfcf;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.handpicked-card img {
+  width: 370px;
+  max-width: none;
+}
+
+@media (max-width: 769px) {
+  .handpicked-card-div {
+    justify-content: flex-start;
+  }
+  .handpicked-card {
+    width: 320px;
+  }
+
+  .handpicked-card img {
+    width: 265px;
+  }
+}

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  scrollbar-color: transparent transparent;
+}
+
+body {
+  font-family: "NeueMontreal", sans-serif;
+}
+
+.custom-container {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.cards-main h2 {
+  color: #1d1d1d;
+}
+
+.custom-button {
+  background-color: #303030;
+  padding: 6px 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.view-all-btn {
+  color: #303030;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #303030;
+}
+
+.heading-div p {
+  color: #696969;
+}
+
+.face-img {
+  position: relative;
+}
+
+.face-img h4 {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 36px;
+  color: white;
+}
+
+.face-img button {
+  position: absolute;
+  top: 20%;
+  left: 9%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.face-img-mob {
+  background-color: #F2F2F2;
+}
+
+.face-img-mob h4 {
+  font-size: 28px;
+}
+
+.knowledge-centre h3 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 769px) {
+  .face-img h4 {
+    left: 25%;
+  }
+  .face-img button {
+    left: 13%;
+  }
+  .knowledge-centre h3 {
+    margin-top: 18px;
+    font-size: 20px;
+  }
+}

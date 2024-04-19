@@ -1,0 +1,30 @@
+.logo {
+  width: 45px;
+}
+
+.bottom-bar {
+  background-color: #e8e8e8;
+  padding: 20px 0 0;
+  font-size: 16px;
+}
+
+.bottom-bar .item {
+  padding: 0 0 20px;
+  color: #696969;
+}
+
+.bottom-bar .active {
+  border-bottom: 2px solid #000000;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .bottom-bar .item {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .custom-container {
+    padding: 0 48px;
+  }
+}

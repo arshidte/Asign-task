@@ -1,0 +1,25 @@
+.btn-div {
+  border-bottom: 1px solid #e5e5e5;
+}
+.tabcontent {
+  display: none;
+}
+
+.tablink {
+  color: #333;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tablink:hover {
+  background-color: #ddd;
+}
+
+.active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.tabcontent.tab-active {
+  display: block;
+}
